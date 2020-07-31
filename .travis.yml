@@ -8,6 +8,7 @@ services:
 before_scripts: 
     - docker-compose up   -d
     - docker ps
+    - docker pip install flake8
 
 
 scripts:
