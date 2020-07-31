@@ -12,4 +12,4 @@ before_scripts:
 
 
 scripts:
-    - docker-compose run app python manage.py test && python manage.py flake8
+    - docker-compose run app python manage.py test 
